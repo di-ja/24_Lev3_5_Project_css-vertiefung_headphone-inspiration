@@ -249,10 +249,15 @@ article div {
     background: #ebccc2;
     text-align: center;
     margin: 0 auto;
+    font-size: 1em;
     width: 120px;
     height: 40px;
     border-radius: 4px;
     padding-top: 16px;
+}
+.button:hover {
+    background: #867772;
+    border-bottom: none;
 }
 
 
