@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+/*
+Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    background: #2e2e2e;
+}
+* {margin:0; padding:0}
+
+/* ------ Head Navigation ------ */
+.Logo {
+    position: fixed;
+    top: 20px;
+    left: 5%;
+}
+header {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    top: 28px;
+    right: 10%;
+}
+a {
+    text-decoration: none;
+    color: #867772;
+    font-size: 0.8em;
+    margin: 0 8px;
+    opacity: 0.8;
+}
+a:hover {
+    transition: 3s;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    opacity: 1;
+}
+.social {
+    width: 400px;
+    text-align: center;
+}
+/* ------ Side Navigation ------ */
+.leftNav a {
+    font-size: 1em;
+}
+.leftNav a:hover {
+    color: #fff;
+    border-bottom: none;
+}
+.leftNav a.active {
+    color: #fff;
+}
+.leftNav {
+    position: fixed;
+    top: 200px;
+    left: 30px;
+}
+.circle::before {
+    content: "";
+    width: 16px;
+    display: inline-block;
+    height: 16px;
+    border: 1px solid rgb(115, 115, 115);
+    opacity: 0.6;
+    border-radius: 50%;
+}
+.leftNav a.active::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    left: -36px;
+    top: 4px;
+}
+.line {
+    width: 1px;
+    height: 64px;
+    border-left: 1px solid rgb(115, 115, 115);
+    opacity: 0.6;
+    margin: -41px 9px 24px;
+}
+.posActive {
+    position: relative;
+    left: 80px;
+    top: -20px;
+}
+.pos {
+    position: relative;
+    left: 80px;
+    top: -22px;
+}
+/* ------ Global ------ */
+h1 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 300;
+}
+h2 {
+    font-size: 2.8em;
+    color: #fff;
+    font-weight: 300;
+}
+h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 300;
+}
+p {
+    font-size: 1em;
+    color: #fff;
+}
+/* ------ Content - DesignAlchemy ------ */
+article h1 {
+    padding: 20vh 30%;
+}
+article p {
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.8em;
+    padding-top: 1.4em;
+}
+article div {
+    margin: 5vh 80px 5vh 110px;
+    background: url(../img/section-about-1.jpg) center/cover no-repeat;
+    background-size: cosntain;
+    height: 100vh;
+}
+.zweiSp {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 15vh 0;
+}
+.eineSpImg {
+    background: url(../img/BS1_NYC_Home.webp) right/cover no-repeat;
+    width: 50%;
+    margin: 5% 2% 5% 16%;
+}
+.eineSpTxt {
+    width: 50%;
+    padding: 10% 0;
+    margin: 0 16% 0vh 2%;
+}
+/* ------ Content - theLounger ------ */
+#theLounger {
+    display: flex;
+    justify-content: space-between;
+}
+.imgFullLounger {
+    background: url(../img/section-voyager.jpg) center/cover no-repeat;
+    width: 50%;
+    height: 100vh;
+}
+.txtrechteSpalte {
+    width: 50%;
+}
+.txtrechteSpalte h2 {
+    padding: 22vh 8% 12vh;
+}
+.txtrechteSpalte p {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+/* ------ Content - Experience ------ */
+#experience {
+    display: flex;
+    justify-content: space-between;
+}
+.imgExperience {
+    background: url(../img/section-experience-1.jpg) center/cover no-repeat;
+    width: 50%;
+    height: 100vh;
+}
+/* ------ Content - Inspiration ------ */
+#video {
+    margin: 18vh 0 0 20%;
+}
+.toCreate {
+    margin: 15vh 10% 15vh 20%;
+}
+.toCreate h2 {
+    padding-top: 10px;
+}
+.toCreate div {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 4px 12px;
+    margin: 5vh 0 22px;
+    color: #fff;
+}
+.fourFullW {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
+}
+.imgFullFeeling {
+    background: url(../img/ETC_6.webp) center/cover no-repeat;
+    width: 50%;
+    height: 50vh;
+}
+.imgStarts {
+    background: url(../img/ETC_5.webp) center/cover no-repeat;
+    width: 50%;
+    height: 50vh;
+}
+.txtFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.txtFour h2 {
+    padding-top: 10px;
+    padding-bottom: 4vh;
+}
+.paddLR {
+    padding: 0 24px;
+}
+.endSpace {
+    margin-bottom: 15vh;
+}
+/* ------ Content - SHOP ------ */
+#shop {
+    display: flex;
+    justify-content: flex-start;
+}
+.imgShop {
+    background: url(../img/section-composition4.jpg) center/cover no-repeat;
+    width: 50%;
+    height: 100vh;
+}
+.product {
+    background: url(../img/h9-argilla-bright-hero-1000x1000.webp) center/cover no-repeat;
+    background-size: contain;
+    margin: 0;
+    width: 100%;
+    height: 60vh;
+}
+#shop h2, #shop h3 {
+    text-align: center;
+    padding: 0;
+    line-height: 60px;
+}
+.button {
+    background: #ebccc2;
+    text-align: center;
+    margin: 0 auto;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    padding-top: 16px;
+}
+
+
+
+
+/*
+
+/*Large Desktop*
+@media (min-width:1200px) {
+    
+}
+/*Normal Desktop*
+@media (min-width:1024px) and (max-width:1199px) {
+    
+}
+/*small desktop*
+@media (min-width:980px) and (max-width:1023px) {
+    
+}
+/*For tablet *
+@media (min-width:768px) and (max-width:979px)  {
+    
+}
+/*For Mobile landscape *
+@media (min-width:480px) and (max-width:767px)  {
+    
+}
+/*For Mobile  *
+@media (min-width:320px) and (max-width:479px)  {
+}
