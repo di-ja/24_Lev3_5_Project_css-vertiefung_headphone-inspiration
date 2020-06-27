@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
 
-/*
-Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)
-*/
-
 html{
     scroll-behavior: smooth;
 }
@@ -95,7 +91,7 @@ a:hover {
 .pos {
     position: relative;
     left: 80px;
-    top: -22px;
+    top: -20px;
 }
 /* ------ Global ------ */
 h1 {
