@@ -275,12 +275,12 @@ article div {
 }
 
 
-h1{
+.txtNewsletter h1{
     color: white;
     text-align: left;
     font-size: 1.8em;
 }
-h1 span {
+.txtNewsletter h1 span {
     font-size: 2em;
     margin-bottom: 40px;
 }
